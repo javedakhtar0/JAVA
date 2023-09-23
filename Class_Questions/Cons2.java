@@ -4,12 +4,14 @@ class Cons2
     Cons2()      //creation of constructor
     {
         System.out.println("Constructor called");
+        Name();
     }
 
     public static  void main(String args[])
     {
-        Cons2 ob=new Cons2();  //ob is a object of the class Cons which will be automatically called
-        Name();
+         //ob is a object of the class Cons which will be automatically called
+        Cons2 ob=new Cons2(); 
+       
     }
 
    public static void Name()
