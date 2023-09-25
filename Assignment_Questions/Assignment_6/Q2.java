@@ -1,22 +1,35 @@
-// Manually allocate differing size second dimensions.
-class Q2 {
-    public static void main(String args[]) {
-        int twoD[][] = new int[4][];
-        twoD[0] = new int[1];
-        twoD[1] = new int[2];
-        twoD[2] = new int[3];
-        twoD[3] = new int[4];
-        int i, j, k = 0;
-        for (i = 0; i < 4; i++)
-            for (j = 0; j < i + 1; j++) {
+/*  in this progarm first off all we get input(marks) from the user by the get_marks()(method) and
+ * after getting input check the marks for gradding in display_grade()(method) after checking print the 
+ * grade of obtained marks in same display_grade()(method).
+ */
 
-                twoD[i][j] = k;
-                k++;
-            }
-        for (i = 0; i < 4; i++) {
-            for (j = 0; j < i + 1; j++)
-                System.out.print(twoD[i][j] + " ");
-            System.out.println();
-        }
+import java.io.Console;
+class Q2 {
+    int marks;
+
+    void get_marks() {
+        Console c = System.console();
+        marks = Integer.parseInt(c.readLine("Enter the Obtained Marks: "));
+    }
+
+    void display_grade() {
+        if (marks >= 80 && marks <= 100)
+            System.out.println("Honours");
+
+        if (marks >= 60 && marks <= 79)
+            System.out.println("First Division");
+
+        if (marks >= 50 && marks <= 59)
+            System.out.println("Second Division");
+
+        if (marks < 50)
+            System.out.println("Fail");
+    }
+
+    public static void main(String args[])
+    {
+        Q2 ob=new Q2();
+        ob.get_marks();
+        ob.display_grade();
     }
 }
