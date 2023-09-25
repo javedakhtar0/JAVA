@@ -12,7 +12,7 @@ class Q1 {
         if (amo <= 500)
             com = amo * 5/100;
         if (amo > 500 && amo <= 2000)
-            com = amo * 10/100+35;
+            com = amo * 10/10+35;
         if (amo > 2000 && amo <= 5000)
             com = amo * 12 / 100 + 185;
         if (amo > 5000)
