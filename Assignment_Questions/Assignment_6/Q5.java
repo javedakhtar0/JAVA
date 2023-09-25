@@ -9,9 +9,9 @@ import java.io.Console;
 public class Q5 {
 
     int amnt, comsn;
+    static Console c = System.console();
 
     void get_amount() {
-        Console c = System.console();
         amnt = Integer.parseInt(c.readLine("Enter the sales amount: "));
     }
 
@@ -50,14 +50,30 @@ public class Q5 {
 
     public static void main(String args[]) {
         // create class object
+        String area;
         Q5 ob = new Q5();
         ob.get_amount();
-        System.out.print("Commission of area x: ");
-        ob.x_area();
-        System.out.print("Commission of area : ");
-        ob.y_area();
-        System.out.print("Commission of area z: ");
-        ob.z_area();
+        area = c.readLine("enter the area: ");
+
+        switch (area) {
+            case "x":
+                System.out.print("Commission of area x: ");
+                ob.x_area();
+                break;
+            case "y":
+                System.out.print("Commission of area y: ");
+                ob.y_area();
+                break;
+
+            case "z":
+                System.out.print("Commission of area z: ");
+                ob.z_area();
+                break;
+
+            default:
+                System.out.println("Enter the right area!");
+
+        }
 
     }
 }
