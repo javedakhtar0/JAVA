@@ -4,6 +4,7 @@
  */
 
 import java.io.Console;
+
 class Q2 {
     int marks;
 
@@ -16,19 +17,18 @@ class Q2 {
         if (marks >= 80 && marks <= 100)
             System.out.println("Honours");
 
-        if (marks >= 60 && marks <= 79)
+        else if (marks >= 60 && marks <= 79)
             System.out.println("First Division");
 
-        if (marks >= 50 && marks <= 59)
+        else if (marks >= 50 && marks <= 59)
             System.out.println("Second Division");
 
-        if (marks < 50)
+        else if (marks < 50)
             System.out.println("Fail");
     }
 
-    public static void main(String args[])
-    {
-        Q2 ob=new Q2();
+    public static void main(String args[]) {
+        Q2 ob = new Q2();
         ob.get_marks();
         ob.display_grade();
     }
