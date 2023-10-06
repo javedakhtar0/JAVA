@@ -1,3 +1,4 @@
+package JAVA.ProgrammingConcepts;
 import java.io.Console;
 class Test2{
 		public static void main(String args[])

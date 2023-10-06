@@ -1,3 +1,4 @@
+package JAVA.ProgrammingConcepts;
 //decleration of constructor and Method(function)
 class Cons2
 {

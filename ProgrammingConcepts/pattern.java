@@ -1,3 +1,4 @@
+package JAVA.ProgrammingConcepts;
 // Manually allocate differing size second dimensions.
 class pattern {
     public static void main(String args[]) {
