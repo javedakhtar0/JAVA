@@ -1,5 +1,3 @@
-public class Interface_in {
-
-    
+interface interface_in {
     
 }
