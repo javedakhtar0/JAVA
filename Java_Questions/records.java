@@ -13,20 +13,29 @@ class records {
     }
 
     void showdata() {
-        System.out.println("Those Employee Record whose salary above the 10000");
-        System.out.println(emp_id);
-        System.out.println(emp_name);
-        System.out.println(dep_name);
-        System.out.println(emp_sal);
+        System.out.println("ID : "+emp_id);
+        System.out.println("Name : "+emp_name);
+        System.out.println("Department : "+dep_name);
+        System.out.println("Salary : "+emp_sal);
     }
 
-    public static void main(String args[])
-    {
-        records d[]=new records(6);
-       System.out.println("Enter the Employee Details:");
-       for(int i=0;i<5;i++)
-       {
-            
-       }
+    public static void main(String args[]) {
+        records d[] = new records[6];
+        System.out.println("Enter the Employee Details:");
+        for (int i = 0; i < 5; i++) {
+            d[i] = new records();
+            d[i].getdata();
+        }
+
+        System.out.println("\n Those Employee Record whose salary above the 10000:");
+        for (int i = 0; i < 5; i++) {
+
+            if (d[i].emp_sal > 10000) {
+                d[i].showdata();
+
+            }
+
+        }
+
     }
 }
