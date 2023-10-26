@@ -13,10 +13,10 @@ class records {
     }
 
     void showdata() {
-        System.out.println("ID : "+emp_id);
-        System.out.println("Name : "+emp_name);
-        System.out.println("Department : "+dep_name);
-        System.out.println("Salary : "+emp_sal);
+        System.out.println("ID : " + emp_id);
+        System.out.println("Name : " + emp_name);
+        System.out.println("Department : " + dep_name);
+        System.out.println("Salary : " + emp_sal);
     }
 
     public static void main(String args[]) {
