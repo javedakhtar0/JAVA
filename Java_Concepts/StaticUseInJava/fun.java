@@ -1,4 +1,3 @@
-//package StaticUseInJava;
 
 import java.io.*;
 

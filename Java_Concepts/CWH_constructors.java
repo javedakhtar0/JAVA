@@ -16,8 +16,8 @@ class Employee {
 
 public class CWH_constructors {
     public static void main(String[] args) {
-        Employee shubham = new Employee("Javed", 1);
-        Employee harry = new Employee("Deepak", 2, 70000);
+        Employee javed = new Employee("Javed", 1);
+        Employee deepak = new Employee("Deepak", 2, 70000);
 
     }
 }
