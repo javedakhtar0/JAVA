@@ -1,4 +1,3 @@
-package JAVA.ProgrammingConcepts;
 import java.io.Console;
 class Q10 {
      public static void main(String args[]) {

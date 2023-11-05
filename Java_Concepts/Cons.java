@@ -1,4 +1,4 @@
-package JAVA.ProgrammingConcepts;
+
 //decleration of constructor 
 class Cons
 {

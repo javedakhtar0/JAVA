@@ -1,6 +1,4 @@
-package JAVA.ProgrammingConcepts;
-
-   // in this code we used non stastic methods,static method ,nonstatic variables and static variables also:-
+ // in this code we used non stastic methods,static method ,nonstatic variables and static variables also:-
 
 
 //declaire a class name method_1   

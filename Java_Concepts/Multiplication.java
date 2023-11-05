@@ -1,4 +1,3 @@
-package JAVA.ProgrammingConcepts;
 import java.io.Console;
 
 class Multiplication {
