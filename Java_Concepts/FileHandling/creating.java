@@ -3,7 +3,7 @@ import java.io.*;
 public class creating {
     public static void main(String[] args) {
         try {
-            File creat = new File("AB2.txt");
+            File creat = new File("AB3.txt");
             if (creat.createNewFile()) {
                 System.out.println("File created: " + creat.getName());
             } else {
