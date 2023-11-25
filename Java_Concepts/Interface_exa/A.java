@@ -1,4 +1,4 @@
-//Basics code of interface that how to write the and work the interface in java
+//Basics code of interface that how to write and work the interface in java
 
 interface face {        //This is a interface which name is face 
     int num = 20;       //in the interface by default each variable have public static and final variable.
@@ -18,7 +18,7 @@ class A implements face {       //implements a interface in a class A
     }
 
     public static void main(String args[]) {
-        A ob1 = new A(); // Create a A object
+        A ob1 = new A(); // Create a object of class A
         ob1.m1();  // call the method m1 by the object of class A
         ob1.m2();
 

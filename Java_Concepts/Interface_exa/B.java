@@ -53,8 +53,8 @@ class rectangle implements shape {
 public class B {
 
     public static void main(String args[]) {
-        square a1 = new square(); // Create a square object
-        rectangle b1 = new rectangle(); // Create a rectangle object
+        square a1 = new square(); // Create a object of class square
+        rectangle b1 = new rectangle(); // Create a object of class rectangle rectangle 
         a1.accept();
         a1.area();
         a1.perimeter();
