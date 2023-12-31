@@ -13,7 +13,7 @@ class reading {
         } catch (FileNotFoundException e) {
             System.out.println("File does not exist");
         } catch (IOException e) {
-            System.out.println("Input Output problem");
+            System.out.println("I/O problem");
         }
     }
 }
