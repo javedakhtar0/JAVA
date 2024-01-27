@@ -1,7 +1,6 @@
-import java.io.Console;
+import java.io.*;
 
 public class Employee {
-
     String id, name, depart;
     int salary;
 
@@ -33,6 +32,5 @@ public class Employee {
             if (ob1[i].salary > 10000)
                 ob1[i].showData();
         }
-
     }
 }
